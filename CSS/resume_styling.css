@@ -1,3 +1,7 @@
 .left_div{
+  float: left;
+}
 
+.right_div{
+  float: right;
 }
