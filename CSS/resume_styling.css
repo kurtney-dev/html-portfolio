@@ -1,21 +1,29 @@
-/* GENERIC CSS FOR DIVS - START */
-div.left_div{
-  float: left;
+/* TAG STYLING - START */
+body{
+  margin: 15px;
 }
+/* TAG STYLING - END */
 
-div.right_div{
-  float: right;
-}
- 
-div.box_shadow {
-    box-shadow: 3px 3px 3px 3px #e5e5e5;
-}
+
+
+/* GENERIC CSS FOR DIVS - START */
+  div.left_div{
+    float: left;
+  }
+  
+  div.right_div{
+    float: right;
+  }
+   
+  div.box_shadow {
+      box-shadow: 3px 3px 3px 3px #e5e5e5;
+  }
 /* GENERIC CSS FOR DIVS - END */
 
 
 
 /* PROFILE PICTURE DIV AND IMG - START */
-  div.profile_picture_div{
+  div.profile_picture_and_name_div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +32,10 @@ div.box_shadow {
   img.profile_picture{
     width: 45%;
     border-radius: 100%;
+  }
+
+  h1.profile_name{
+    
   }
 /* PROFILE PICTURE DIV AND IMG - END */
 
