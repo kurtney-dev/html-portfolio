@@ -1,3 +1,4 @@
+/* GENERIC CSS FOR DIVS - START */
 div.left_div{
   float: left;
 }
@@ -5,11 +6,25 @@ div.left_div{
 div.right_div{
   float: right;
 }
-
+ 
 div.box_shadow {
-  box-shadow: 3px 3px 3px 3px #e5e5e5;
+    box-shadow: 3px 3px 3px 3px #e5e5e5;
 }
+/* GENERIC CSS FOR DIVS - END */
 
-img.profile_picture{
+
+
+/* PROFILE PICTURE DIV AND IMG - START */
+  div.profile_picture_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
-}
+  img.profile_picture{
+    width: 45%;
+    border-radius: 100%;
+  }
+/* PROFILE PICTURE DIV AND IMG - END */
+
+
