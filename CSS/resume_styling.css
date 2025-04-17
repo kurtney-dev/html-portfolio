@@ -1,7 +1,15 @@
-.left_div{
+div.left_div{
   float: left;
 }
 
-.right_div{
+div.right_div{
   float: right;
+}
+
+div.box_shadow {
+  box-shadow: 3px 3px 3px 3px #e5e5e5;
+}
+
+img.profile_picture{
+  
 }
