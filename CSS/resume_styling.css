@@ -2,6 +2,10 @@
 body{
   margin: 15px;
 }
+
+li {
+  list-style-type: none;
+}
 /* TAG STYLING - END */
 
 
